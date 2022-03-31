@@ -15,7 +15,7 @@ describe("Test the root path", () => {
 
 
 
-describe("Test events get parameter path", () => {
+describe("Test events get id parameter", () => {
   test("It should response the GET method", done => {
     request(app)
       .get(`/events/${3}`)
