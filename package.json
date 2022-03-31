@@ -6,13 +6,19 @@
   "scripts": {
     "server": "nodemon index.js",
     "client": "npm run start --prefix ../frontend",
-    "dev": "concurrently --kill-others-on-fail \"npm run server \"npm run client\""
+    "dev": "concurrently --kill-others-on-fail \"npm run server \"npm run client\"",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "superagent": "^7.1.2",
+    "supertest": "^6.2.2"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
