@@ -15,7 +15,7 @@ describe("Test the root path", () => {
 
 
 
-describe("Test the parameter path", () => {
+describe("Test events parameter path", () => {
   test("It should response the GET method", done => {
     request(app)
       .get(`/events/${3}`)
@@ -25,24 +25,3 @@ describe("Test the parameter path", () => {
       });
   });
 });
-
-
-
-// describe("Test the post path", () => {
-//     it('should create a new event', async () => {
-//         const res = await request(app)
-//             .post('/add-event')
-//             .send({
-//                 "id": '34',
-//                 "author": 'req.body.author',
-//                 "capacity": 30,
-//                 "event": 'event name',
-//                 "venue": 'location',
-//                 "date": 'today',
-//                 "description": 'description',
-//                 "attendants": []
-//             });
-//         expect(res.statusCode).toEqual(200)
-//         expect(res.body).toHaveProperty('post')
-//     })
-// });
