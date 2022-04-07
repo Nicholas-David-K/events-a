@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 5.788093428175845,
+    "author": "Nicholas David",
+    "capacity": "34",
+    "event": "Testing Event",
+    "venue": "Django1234",
+    "date": "2022-04-19T20:10",
+    "description": "This is a testing event",
+    "attendants": []
+  }
+]
