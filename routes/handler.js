@@ -56,5 +56,7 @@ router.post('/event-register/:id', (req, res) => {
     res.end()
 });
 
+router.post()
+
 
 module.exports = router;
